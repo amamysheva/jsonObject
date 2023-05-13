@@ -7,7 +7,7 @@ import com.google.gson.GsonBuilder;
 public class Main {
     public static void main(String[] args) {
 
-        Iam gsonObject = new Iam();
+        Person gsonObject = new Person();
 
         gsonObject.name = "Anna";
         gsonObject.lastName = "Mamysheva";
